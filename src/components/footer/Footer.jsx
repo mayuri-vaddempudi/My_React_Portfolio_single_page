@@ -1,12 +1,12 @@
 import React from "react";
 import "./footer.css";
-import {FaFacebookF} from "react-icons/fa";
-import {FiInstagram} from "react-icons/fi";
-import {IoLogoTwitter} from "react-icons/io";
+import { FaFacebookF } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { IoLogoTwitter } from "react-icons/io";
 
 
-export default function Footer(){
-    return(
+export default function Footer() {
+    return (
         <footer>
             <a href="#" className="footer_logo">MAYURI</a>
             <ul className="permalinks">
@@ -16,12 +16,12 @@ export default function Footer(){
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
             <div className="footer_social">
-                <a href="https://facebook.com"><FaFacebookF/></a>
-                <a href="https://instagram.com"><FiInstagram/></a>
-                <a href="https://twitter.com"><IoLogoTwitter/></a>
+                <a href="https://facebook.com"><FaFacebookF /></a>
+                <a href="https://instagram.com"><FiInstagram /></a>
+                <a href="https://twitter.com"><IoLogoTwitter /></a>
             </div>
             <div className="footer_copyright">
                 <small>
