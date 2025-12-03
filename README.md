@@ -1,5 +1,7 @@
 <h2>DEMO</h2>
-<a href="https://mr-react-portfolio-mwbodl79r-mayurivijaya-gmailcom.vercel.app/">Deploy link</a>
+<a href="https://my-react-portfolio-single-page.vercel.app/">Deploy link</a>
+
+
 
 # Getting Started with Create React App
 
