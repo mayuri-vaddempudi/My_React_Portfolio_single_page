@@ -5,56 +5,104 @@ import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
+import IMG7 from "../../assets/portfolio7.png";
+import IMG8 from "../../assets/portfolio8.png";
+import IMG9 from "../../assets/portfolio9.png";
+import IMG10 from "../../assets/portfolio10.png";
+import IMG11 from "../../assets/portfolio11.png";
+import IMG12 from "../../assets/portfolio12.png";
 
 const data = [
     {
-        id:1,
-        image:IMG1,
-        title:"Shopping website",
-        github : "https://github.com/jamiekim828/ShoppingWebsite-project",
-        demo : "https://shopping-website-project.vercel.app/"
+        id: 1,
+        image: IMG11,
+        title: "Log in - Angular",
+        github: "https://github.com/mayuri-vaddempudi/infy-swed-demo",
+        demo: "https://infy-swed-demo.vercel.app/login"
     },
     {
-        id:2,
-        image:IMG2,
-        title:"Country website",
-        github : "https://github.com/mayuri2018/Countryes-list",
-        demo : "https://isa-6-front-end-project-amber.vercel.app/"
+        id: 2,
+        image: IMG10,
+        title: "To-Do-List Angular",
+        github: "https://github.com/mayuri-vaddempudi/to_do_Angular-18",
+        demo: "https://to-do-angular-18.vercel.app/"
     },
     {
-        id:3,
-        image:IMG3,
-        title:"Yummy",
-        github : "https://github.com/mayuri2018/yummy",
-        demo : "https://isa-6-yummy-project-6osjdznw4-mayurivijaya-gmailcom.vercel.app/"
+        id: 3,
+        image: IMG9,
+        title: "Tic_Tac_Toe",
+        github: "https://github.com/mayuri-vaddempudi/Tic_Tac_Toe-typescript",
+        demo: "https://tic-tac-toe-typescript-six.vercel.app/"
     },
     {
-        id:4,
-        image:IMG4,
-        title:"Food delivery",
-        github : "https://github.com/mayuri2018/Food-delivery",
-        demo : "https://food-delivery-five-rho.vercel.app/home"
+        id: 4,
+        image: IMG8,
+        title: "Weather App",
+        github: "https://github.com/mayuri-vaddempudi/Weather_App",
+        demo: "https://mayuri-vaddempudi.github.io/Weather_App/"
     },
     {
-        id:5,
-        image:IMG5,
-        title:"Note App",
-        github : "https://github.com/mayuri2018/Note-App",
-        demo : "https://note-app-black.vercel.app/"
+        id: 5,
+        image: IMG12,
+        title: "Colors Matching Game",
+        github: "https://github.com/mayuri-vaddempudi/Memory_Game-Color_cards?tab=readme-ov-file",
+        demo: "https://mayuri-vaddempudi.github.io/Memory_Game-Color_cards/"
+    },
+    {
+        id: 6,
+        image: IMG7,
+        title: "AnimalZoo",
+        github: "https://github.com/SuneethaBandaru/FG-AnimalZoo-GroupAssignment",
+        demo: "https://fg-animal-zoo-group-assignment.vercel.app/"
+    },
+    {
+        id: 7,
+        image: IMG1,
+        title: "Shopping website",
+        github: "https://github.com/jamiekim828/ShoppingWebsite-project",
+        demo: "https://shopping-website-project.vercel.app/"
+    },
+    {
+        id: 8,
+        image: IMG2,
+        title: "Country website",
+        github: "https://github.com/mayuri2018/Countryes-list",
+        demo: "https://isa-6-front-end-project-amber.vercel.app/"
+    },
+    {
+        id: 9,
+        image: IMG3,
+        title: "Yummy",
+        github: "https://github.com/mayuri2018/yummy",
+        demo: "https://isa-6-yummy-project-6osjdznw4-mayurivijaya-gmailcom.vercel.app/"
+    },
+    {
+        id: 10,
+        image: IMG4,
+        title: "Food delivery",
+        github: "https://github.com/mayuri2018/Food-delivery",
+        demo: "https://food-delivery-five-rho.vercel.app/home"
+    },
+    {
+        id: 11,
+        image: IMG5,
+        title: "Note App",
+        github: "https://github.com/mayuri2018/Note-App",
+        demo: "https://note-app-black.vercel.app/"
     }
 ]
-export default function Portfolio(){
-    return(
+export default function Portfolio() {
+    return (
         <section id="portfolio">
             <h5>My Recent work</h5>
             <h2>Portfolio</h2>
             <div className="container portfolio_container">
                 {
-                    data.map(({id,image,title,github,demo})=>{
-                        return(
+                    data.map(({ id, image, title, github, demo }) => {
+                        return (
                             <article key={id} className="portfolio_item">
                                 <div className="portfolio_item-image">
-                                    <img src={image} alt={title}/>
+                                    <img src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="portfolio_item-cta">
