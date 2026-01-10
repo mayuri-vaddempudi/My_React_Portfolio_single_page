@@ -1,5 +1,5 @@
 import React from "react";
-import Mayuri_Vaddempudi_CV from "../../assets/cv.pdf"
+import Mayuri_Vaddempudi_CV from "../../assets/Mayuri_Vaddempudi_CV.pdf"
 
 export default function CTA() {
     return (
