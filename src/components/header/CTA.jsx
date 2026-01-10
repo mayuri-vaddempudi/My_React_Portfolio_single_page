@@ -1,11 +1,11 @@
 import React from "react";
-import CV from "../../assets/cv.pdf"
+import Mayuri_Vaddempudi_CV from "../../assets/cv.pdf"
 
-export default function CTA(){
-    return(
+export default function CTA() {
+    return (
         <div className="cta">
-           <a href={CV} download className="btn">Download CV</a>
-           <a href="#contact" className="btn btn-primary">Let's Talk</a>
+            <a href={Mayuri_Vaddempudi_CV} download className="btn">Download CV</a>
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
     )
 }
