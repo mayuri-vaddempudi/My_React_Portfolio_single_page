@@ -5,12 +5,12 @@ import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
-import IMG7 from "../../assets/portfolio7.png";
-import IMG8 from "../../assets/portfolio8.png";
+import IMG7 from "../../assets/portfolio7.jpg";
+import IMG8 from "../../assets/portfolio8.jpg";
 import IMG9 from "../../assets/portfolio9.png";
-import IMG10 from "../../assets/portfolio10.png";
-import IMG11 from "../../assets/portfolio11.png";
-import IMG12 from "../../assets/portfolio12.png";
+import IMG10 from "../../assets/portfolio10.jpg";
+import IMG11 from "../../assets/portfolio11.jpg";
+import IMG12 from "../../assets/portfolio12.jpg";
 
 const data = [
     {
